@@ -1,0 +1,151 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#ps{
+	color: #000066;
+	font: 9px/0.9em "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+body {
+    background: #eeeeee none repeat scroll 0 0;
+    color: #333333;
+    font: 14px/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0 auto;
+    width: 520px;
+}
+#todoapp {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    padding: 20px;
+}
+#todoapp h1 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0 0 10px;
+    text-align: center;
+}
+#todoapp input[type="text"] {
+    border: 1px solid #999999;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 1.4em;
+    outline: medium none;
+    padding: 6px;
+    width: 466px;
+}
+#main {
+    display: none;
+}
+#todo-list {
+    list-style: outside none none;
+    margin: 10px 0;
+    padding: 0;
+}
+#todo-list li {
+    border-bottom: 1px solid #cccccc;
+    font-size: 24px;
+    padding: 18px 20px 18px 0;
+    position: relative;
+}
+#todo-list li:last-child {
+    border-bottom: medium none;
+}
+#todo-list li.done label {
+    color: #777777;
+    text-decoration: line-through;
+}
+#todo-list .destroy {
+    background: rgba(0, 0, 0, 0) url("destroy.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: none;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    width: 20px;
+}
+#todo-list li:hover .destroy {
+    display: block;
+}
+#todo-list .destroy:hover {
+    background-position: 0 -20px;
+}
+#todo-list li.editing {
+    border-bottom: medium none;
+    margin-top: -1px;
+    padding: 0;
+}
+#todo-list li.editing:last-child {
+    margin-bottom: -1px;
+}
+#todo-list li.editing .edit {
+    display: block;
+    margin: 0;
+    padding: 13px 15px 14px 20px;
+    width: 444px;
+}
+#todo-list li.editing .view {
+    display: none;
+}
+#todo-list li .view label {
+}
+#todo-list li .edit {
+    display: none;
+}
+#todoapp footer {
+    background: #f4fce8 none repeat scroll 0 0;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid #ededed;
+    color: #555555;
+    display: none;
+    line-height: 37px;
+    margin: 0 -20px -20px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+#clear-completed {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    border-radius: 12px;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+    color: #555555;
+    cursor: pointer;
+    float: right;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 0 10px 1px;
+    text-decoration: none;
+}
+#clear-completed:hover {
+    background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+}
+#clear-completed:active {
+    position: relative;
+    top: 1px;
+}
+#todo-count span {
+    font-weight: bold;
+}
+#instructions {
+    color: #777777;
+    margin: 10px auto;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+#instructions a {
+    color: #336699;
+}
+#credits {
+    color: #999;
+    margin: 30px auto;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+#credits a {
+    color: #888;
+}
