@@ -1,0 +1,24 @@
+echo "# Gromcode" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/natali45851/Gromcode.git
+git push -u origin main
+               
+
+Еor push an existing repository from the command line
+
+git remote add origin https://github.com/natali45851/Gromcode.git
+git branch -M main
+git push -u origin main
+
+Еor import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+natali45851
+nat1624649
+git занести с локального
+git commit -a -m "comment"
+ а потом push
