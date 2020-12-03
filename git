@@ -19,6 +19,9 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 
 natali45851
 nat1624649
+https://habr.com/ru/post/273897/
 git занести с локального
+git status
+git add --all
 git commit -a -m "comment"
- а потом push
+git push
